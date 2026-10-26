@@ -1,5 +1,5 @@
 import pandas as pd
-from etl_vendas import transform_sales
+from etl_sales import transform_sales
 
 
 def test_product_code_cleaning():
