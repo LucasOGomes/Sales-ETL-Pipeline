@@ -7,11 +7,10 @@ def load_config(config_path: str = "config.yaml") -> dict:
     with open(config_path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
-# Carrega a configuração inicial para o Logger
 config_temp = load_config()
 
 logging.basicConfig(
-    filename=config_temp["paths"]["log_file"], # Agora dinâmico através do YAML
+    filename=config_temp["paths"]["log_file"],
     level=logging.INFO,
     format='%(asctime)s | %(name)s | Linha: %(lineno)d | %(levelname)s | %(message)s'
 )
@@ -20,37 +19,33 @@ logger = logging.getLogger(__name__)
 # 1. EXTRACT 
 def load_sales(path: str) -> pd.DataFrame:
     try:
-        logger.info(f"A iniciar extração do ficheiro: {path}")
+        logger.info(f"Starting file extraction: {path}")
         df = pd.read_csv(path, sep=';', encoding='latin-1', decimal=',', thousands='.')
-        logger.info(f"Sucesso: {len(df)} linhas carregadas.")
+        logger.info(f"Success: {len(df)} rows loaded.")
         return df
     except FileNotFoundError:
-        logger.error(f"Ficheiro não encontrado: {path}", exc_info=True)
-        # Mas não podemos esquecer de matar o programa para não vazar um "None")
+        logger.error(f"File not found: {path}", exc_info=True)
         raise
 
 def calculate_monthly_avg(df: pd.DataFrame) -> pd.DataFrame:
     try:
-        logger.info("A calcular o preço médio por mês...")
+        logger.info("Calculating the average price per month...")
         
-        # Agrupa pelo mês e calcula a média do valor total
         df_avg = df.groupby('month')['total_value'].mean().reset_index()
         df_avg['total_value'] = df_avg['total_value'].round(2)
         
-        # O "print" do Engenheiro de Dados: 
-        # Usamos o .to_string() para o logger formatar a tabela bonitinha no terminal
-        logger.info(f"Média Mensal Calculada com Sucesso:\n{df_avg.to_string()}")
+        logger.info(f"Monthly Average Successfully Calculated:\n{df_avg.to_string()}")
         
         return df_avg
         
     except Exception as e:
-        logger.error("Erro ao calcular a média mensal.", exc_info=True)
+        logger.error("Error calculating the monthly average.", exc_info=True)
         raise
 
-# 2. TRANSFORM (Toda a limpeza das Tasks 1 a 5)
+# 2. TRANSFORM
 def transform_sales(df: pd.DataFrame) -> pd.DataFrame:
     try:
-        logger.info("A iniciar transformações de dados...")
+        logger.info("Starting data transformations...")
 
         # Cleaning and type conversion
         df['invoice_date'] = pd.to_datetime(df['invoice_date'], errors='coerce', format='%d-%m-%Y')
@@ -60,43 +55,37 @@ def transform_sales(df: pd.DataFrame) -> pd.DataFrame:
         df = df.dropna(subset=['total_value'])
         df = df.drop_duplicates()
         
-        # O astype(str) no final transforma o período "2026-10" num texto normal, que o SQLite aceita!
         df['month'] = df['invoice_date'].dt.to_period('M').astype(str)
         df['customer'] = df['customer'].fillna('Unknown')
 
-        logger.info("Transformações concluídas.")
+        logger.info("Transformations completed.")
         return df
     
     except Exception as e:
-        logger.error("Erro ao transformar dados.", exc_info=True)
+        logger.error("Error transforming data.", exc_info=True)
         raise
     
-# 3. LOAD (A lógicas de banco de dados da Task 6)
+# 3. LOAD
 def load_to_database(df: pd.DataFrame, table_name: str = 'sales', db_name: str = ':memory:') -> None:
-    logger.info(f"A criar a tabela '{table_name}' no banco '{db_name}'...")
+    logger.info(f"Creating table '{table_name}' in database '{db_name}'...")
     
     conn = sqlite3.connect(db_name)
     
-    # Em vez de chumbar a palavra 'sales', passamos a variável table_name
     df.to_sql(table_name, conn, if_exists='replace', index=False)
     
     conn.close()
-    logger.info("Carregamento no banco concluído com sucesso.")
+    logger.info("Loading into the database completed successfully.")
 
-# 4. ORQUESTRADOR (O maestro que chama as funções na ordem certa)
+# 4. Workflow Orchestrator 
 def run_pipeline(config_path: str = "config.yaml") -> None:
-    # Carrega as configurações para a execução do pipeline
     config = load_config(config_path)
     
-    # Busca o caminho do CSV dentro do YAML
     caminho_do_arquivo = config["paths"]["raw_sales_csv"]
     
-    # Executa o pipeline passo a passo
     df_raw = load_sales(caminho_do_arquivo)
     df_clean = transform_sales(df_raw)
     df_averages = calculate_monthly_avg(df_clean)
     
-    # Passa as configurações de banco de dados diretamente do YAML
     load_to_database(
         df_clean, 
         table_name=config["database"]["tables"]["cleaned_sales"], 
