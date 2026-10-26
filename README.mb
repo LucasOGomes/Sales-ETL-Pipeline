@@ -1,0 +1,43 @@
+# Sales ETL Pipeline in Python
+
+A modular pipeline for the Extraction, Transformation, and Loading (ETL) of sales data. The project focuses on software engineering best practices applied to data engineering.
+
+## Architecture and Best Practices Employed
+
+- **Modularity:** Separate functions for Extract, Transform, and Load processes.
+- **Clean Code:** Type hinting, exception handling (`try/except/raise`), and secure orchestration using `if __name__ == "__main__":`.
+- **Traceability:** File-based logging system.
+- **External Configuration:** Parameters managed via YAML files to avoid hardcoding (following Twelve-Factor App methodology).
+- **Automated Testing:** Unit test coverage using `pytest` following the AAA (Arrange, Act, Assert) pattern.
+
+## Getting Started
+
+Follow these instructions to get a local copy of the project up and running for execution and testing.
+
+### Prerequisites
+
+- **Python 3.10+**
+- **Git**
+
+### 1. Clone the Repository & Setup Environment
+
+```bash
+git clone [https://github.com/LucasOgomes/sales-etl-pipeline.git](https://github.com/LucasOgomes/sales-etl-pipeline.git)
+cd sales-etl-pipeline
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+
+### 2. Configuration
+Review and update config.yaml to set your desired file paths, log destinations, and target SQLite database parameters:
+
+### 3. Run Automated Unit Tests
+Validate transformation rules and edge-case behaviors (null handling, data typing) using pytest:
+python -m pytest
+
+### 4. Run the ETL Pipeline
+To execute the end-to-end pipeline workflow:
+python etl_vendas.py
+
+
+Check logbook.log (or your configured log file) to inspect the execution trace and verify batch status.

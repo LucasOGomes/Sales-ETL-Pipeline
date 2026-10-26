@@ -1,0 +1,9 @@
+paths:
+  raw_sales_csv: "C:\\Users\\luoli\\OneDrive\\Área de Trabalho\\Codes\\sales-etl-pipeline\\sales_synthetic.csv"
+  log_file: "my_logbook.log"
+
+database:
+  db_name: ":memory:"
+  tables:
+    cleaned_sales: "sales_cleaned"
+    monthly_avg: "sales_monthly_avg"

@@ -1,0 +1,207 @@
+invoice_id;invoice_date;customer;product_code;product_name;quantity;total_value
+NF-00107;01-06-2026;Clínica Aurora;BR-2006;Termômetro Digital;14;1.765,96
+NF-00124;15-05-2026;Distribuidora Atlântico;BR-2002;Fita Microporosa 2,5cm;58;
+NF-00064;20-04-2026;Clínica Aurora;BR-2005;Máscara N95;59;245,44
+NF-00112;03-04-2026;Hospital Serra Azul;BR-2004;Avental Descartável;19;295,07
+NF-00193;28-04-2026;Hospital Solar;BR-2001;Curativo Hidrocolóide 10cm;48;928,80
+NF-00110;26-06-2026;Hospital Serra Azul;BR-2006;Termômetro Digital;14;1.679,30
+NF-00138;15-04-2026;Farmácia Horizonte;BR-2002;Fita Microporosa 2,5cm;18;118,44
+NF-00169;15-06-2026;Laboratório Ipê;BR-2003;Luva Cirúrgica Estéril;7;383,04
+NF-00156;22-04-2026;Laboratório Ipê;BR-2006;Termômetro Digital;37;
+NF-00131;26-04-2026;Farmácia Horizonte;BR-2001;Curativo Hidrocolóide 10cm;1;17,10
+NF-00180;06-06-2026;Hospital Solar;BR-2001;Curativo Hidrocolóide 10cm;45;873,00
+NF-00048;06-05-2026;Distribuidora Atlântico;BR-2002;Fita Microporosa 2,5cm;8;48,88
+NF-00133;07-06-2026;Laboratório Ipê;BR-2001;Curativo Hidrocolóide 10cm;58;1.131,00
+NF-00033;21-05-2026;Hospital Solar;BR-2004;Avental Descartável;40;594,40
+NF-00031;15-04-2026;Farmácia Horizonte;BR-2001;Curativo Hidrocolóide 10cm;0;0,00
+NF-00186;17-04-2026;Clínica Aurora;BR-2001;Curativo Hidrocolóide 10cm;26;443,82
+NF-00037;16-06-2026;Clínica Aurora;BR-2002;Fita Microporosa 2,5cm;22;139,04
+NF-00148;05-05-2026;Distribuidora Atlântico;BR-2003;Luva Cirúrgica Estéril;46;2.580,14
+NF-00036;22-06-2026;Farmácia Horizonte;BR-2005;Máscara N95;5;22,70
+NF-00025;06-04-2026;Hospital Serra Azul;BR-2004;Avental Descartável;45;620,10
+NF-00090;08-06-2026;Hospital Solar;BR-2003;Luva Cirúrgica Estéril;35;1.895,95
+NF-00077;08-04-2026;Hospital Serra Azul;BR-2005;Máscara N95;47;206,80
+NF-00153;16-06-2026;Hospital Serra Azul;BR-2003;Luva Cirúrgica Estéril;46;2.283,44
+NF-00105;26-04-2026;Laboratório Ipê;BR-2006;Termômetro Digital;44;5.644,32
+NF-00144;14-04-2026;Farmácia Horizonte;BR-2002;Fita Microporosa 2,5cm;46;293,48
+NF-00079;25-06-2026;Hospital Serra Azul;BR-2004;Avental Descartável;32;471,04
+NF-00163;13-04-2026;Farmácia Horizonte;BR-2006;Termômetro Digital;41;4.781,42
+NF-00196;28-04-2026;Clínica Aurora;BR-2006;Termômetro Digital;26;3.579,42
+NF-00122;21-06-2026;Hospital Solar; BR-2002;Fita Microporosa 2,5cm;10;63,30
+NF-00075;07-06-2026;Laboratório Ipê;BR-2005;Máscara N95;0;0,00
+NF-00140;24-05-2026;Hospital Serra Azul;BR-2001;Curativo Hidrocolóide 10cm;8;152,16
+NF-00113;16-06-2026;Laboratório Ipê;BR-2002;Fita Microporosa 2,5cm;28;172,20
+NF-00013;16-04-2026;Hospital Solar;BR-2001;Curativo Hidrocolóide 10cm;51;997,05
+NF-00050;09-06-2026;Clínica Aurora;BR-2001;Curativo Hidrocolóide 10cm;33;647,13
+NF-00151;05-04-2026;Hospital Serra Azul;BR-2002;Fita Microporosa 2,5cm;56;317,52
+NF-00125;17-06-2026;Hospital Serra Azul;BR-2001;Curativo Hidrocolóide 10cm;3;55,56
+NF-00183;19-06-2026;Farmácia Horizonte;BR-2002;Fita Microporosa 2,5cm;36;205,20
+NF-00171;23-04-2026;Clínica Aurora;BR-2005;Máscara N95;33;151,14
+NF-00092;17-06-2026;Farmácia Horizonte;br-2004;Avental Descartável;12;190,68
+NF-00142;09-04-2026;Clínica Aurora;BR-2002;Fita Microporosa 2,5cm;6;35,88
+NF-00135;08-06-2026;Distribuidora Atlântico;BR-2004;Avental Descartável;29;434,42
+NF-00039;14-05-2026;Hospital Serra Azul;BR-2005;Máscara N95;30;131,70
+NF-00092;17-06-2026;Farmácia Horizonte;br-2004;Avental Descartável;12;190,68
+NF-00008;23-06-2026;Hospital Serra Azul;BR-2005;Máscara N95;34;167,28
+NF-00123;29-04-2026;Clínica Aurora; br-2001 ;Curativo Hidrocolóide 10cm;55;1.001,00
+NF-00049;14-04-2026;Farmácia Horizonte;BR-2003;Luva Cirúrgica Estéril;53;2.830,20
+NF-00072;28-04-2026;Hospital Serra Azul;BR-2001;Curativo Hidrocolóide 10cm;33;562,32
+NF-00199;12-06-2026;Distribuidora Atlântico;BR-2003;Luva Cirúrgica Estéril;17;830,79
+NF-00154;05-04-2026;Hospital Serra Azul;BR-2001;Curativo Hidrocolóide 10cm;19;330,03
+NF-00098;12-04-2026;Hospital Serra Azul;BR-2004;Avental Descartável;10;139,90
+NF-00147;11-05-2026;;BR-2003;Luva Cirúrgica Estéril;3;162,15
+NF-00102;12-05-2026;Laboratório Ipê;BR-2006;Termômetro Digital;49;6.731,62
+NF-00119;23-05-2026;Hospital Serra Azul;BR-2001;Curativo Hidrocolóide 10cm;33;632,28
+NF-00038;11-06-2026;Distribuidora Atlântico;BR-2006;Termômetro Digital;9;1.098,00
+NF-00009;17-05-2026;Farmácia Horizonte;BR-2003;Luva Cirúrgica Estéril;55;2.937,00
+NF-00070;26-05-2026;Distribuidora Atlântico;BR-2005;Máscara N95;30;147,30
+NF-00121;18-06-2026;Hospital Solar;BR-2006;Termômetro Digital;39;5.126,55
+NF-00053;05-06-2026;Hospital Solar;BR-2002;Fita Microporosa 2,5cm;39;258,57
+NF-00096;25-06-2026;Laboratório Ipê;BR-2004;Avental Descartável;50;740,00
+NF-00139;19-04-2026;Laboratório Ipê;BR-2006;Termômetro Digital;35;4.113,55
+NF-00007;26-05-2026;Clínica Aurora;BR-2004;Avental Descartável;26;364,26
+NF-00055;14-04-2026;;BR-2005;Máscara N95;11;50,16
+NF-00002;23-06-2026;Laboratório Ipê;BR-2003;Luva Cirúrgica Estéril;6;297,36
+NF-00017;23-04-2026;Farmácia Horizonte;BR-2001;Curativo Hidrocolóide 10cm;19;364,99
+NF-00005;08-06-2026;Distribuidora Atlântico;BR-2003;Luva Cirúrgica Estéril;22;1.115,40
+NF-00030;06-06-2026;Hospital Solar;BR-2005;Máscara N95;34;148,92
+NF-00150;28-05-2026;Laboratório Ipê;BR-2002;Fita Microporosa 2,5cm;20;128,40
+NF-00191;22-05-2026;Laboratório Ipê;BR-2002;Fita Microporosa 2,5cm;29;164,43
+NF-00189;02-06-2026;Distribuidora Atlântico;BR-2005;Máscara N95;7;31,92
+NF-00028;18-06-2026;Distribuidora Atlântico;BR-2005;Máscara N95;51;218,28
+NF-00026;12-05-2026;Hospital Serra Azul;BR-2003;Luva Cirúrgica Estéril;37;1.948,05
+NF-00024;29-04-2026;Distribuidora Atlântico;BR-2004;Avental Descartável;43;645,43
+NF-00159;22-06-2026;Distribuidora Atlântico;BR-2004;Avental Descartável;16;254,24
+NF-00081;03-04-2026;Hospital Solar;BR-2003;Luva Cirúrgica Estéril;4;199,12
+NF-00104;19-06-2026;Hospital Serra Azul;BR-2006;Termômetro Digital;18;2.179,98
+NF-00065;31-05-2026;Hospital Serra Azul;BR-2006;Termômetro Digital;24;3.148,80
+NF-00192;15-04-2026;Distribuidora Atlântico;BR-2001;Curativo Hidrocolóide 10cm;43;731,00
+NF-00152;02-04-2026;Hospital Solar;BR-2003;Luva Cirúrgica Estéril;40;2.214,80
+NF-00181;08-04-2026;Distribuidora Atlântico;BR-2003;Luva Cirúrgica Estéril;59;3.063,87
+NF-00004;25-06-2026;Farmácia Horizonte;BR-2004;Avental Descartável;60;
+NF-00003;30-04-2026;Hospital Solar;BR-2004;Avental Descartável;53;846,94
+NF-00194;20-05-2026;Distribuidora Atlântico;BR-2003;Luva Cirúrgica Estéril;7;377,86
+NF-00161;22-05-2026;Hospital Serra Azul;BR-2006;Termômetro Digital;41;5.026,19
+NF-00126;06-05-2026;Clínica Aurora;BR-2006;Termômetro Digital;34;4.229,26
+NF-00164;30-05-2026;Laboratório Ipê;BR-2002;Fita Microporosa 2,5cm;40;273,20
+NF-00018;19-05-2026;Farmácia Horizonte;BR-2005;Máscara N95;50;208,00
+NF-00042;22-04-2026;Hospital Solar;BR-2005;Máscara N95;51;226,95
+NF-00087;21-05-2026;Clínica Aurora;BR-2006 ;Termômetro Digital;13;1.541,28
+NF-00080;28-04-2026;Distribuidora Atlântico;BR-2004;Avental Descartável;5;70,35
+NF-00057;12-06-2026;Clínica Aurora;BR-2003;Luva Cirúrgica Estéril;13;698,23
+NF-00118;16-06-2026;Hospital Serra Azul;BR-2004;Avental Descartável;36;493,56
+NF-00137;06-06-2026;Laboratório Ipê;BR-2005;Máscara N95;0;0,00
+NF-00114;03-05-2026;Clínica Aurora; BR-2002;Fita Microporosa 2,5cm;11;67,65
+NF-00168;24-04-2026;Distribuidora Atlântico;BR-2006;Termômetro Digital;33;4.045,80
+NF-00001;30-05-2026;Clínica Aurora;BR-2006;Termômetro Digital;60;
+NF-00175;18-05-2026;Farmácia Horizonte;BR-2001;Curativo Hidrocolóide 10cm;4;72,04
+NF-00095;17-05-2026;Distribuidora Atlântico;BR-2005;Máscara N95;44;197,12
+NF-00066;15-05-2026;Hospital Serra Azul;BR-2003;Luva Cirúrgica Estéril;49;2.661,68
+NF-00188;11-06-2026;Hospital Solar;BR-2005;Máscara N95;49;231,77
+NF-00108;13-06-2026;Clínica Aurora;BR-2002;Fita Microporosa 2,5cm;54;355,32
+NF-00165;04-06-2026;Farmácia Horizonte;BR-2001;Curativo Hidrocolóide 10cm;23;463,91
+NF-00058;13-06-2026;Distribuidora Atlântico;BR-2003;Luva Cirúrgica Estéril;30;1.436,40
+NF-00167;20-04-2026;Laboratório Ipê;BR-2001;Curativo Hidrocolóide 10cm;29;494,16
+NF-00059;19-06-2026;Hospital Solar;BR-2005;Máscara N95;39;185,25
+NF-00179;15-06-2026;Hospital Serra Azul;BR-2002;Fita Microporosa 2,5cm;39;235,95
+NF-00190;14-04-2026;Hospital Solar;BR-2005;Máscara N95;27;123,12
+NF-00068;30-05-2026;Laboratório Ipê;BR-2003;Luva Cirúrgica Estéril;51;2.827,44
+NF-00032;01-06-2026;Distribuidora Atlântico;BR-2006;Termômetro Digital;9;1.205,82
+NF-00149;29-06-2026;Distribuidora Atlântico;BR-2001;Curativo Hidrocolóide 10cm;14;251,44
+NF-00172;20-05-2026;Hospital Serra Azul;br-2004;Avental Descartável;17;268,09
+NF-00027;20-04-2026;Hospital Serra Azul;BR-2005;Máscara N95;45;226,80
+NF-00085;16-06-2026;Hospital Serra Azul;BR-2003;Luva Cirúrgica Estéril;33;1.646,70
+NF-00129;15-05-2026;Hospital Serra Azul;BR-2005;Máscara N95;4;
+NF-00039;14-05-2026;Hospital Serra Azul;BR-2005;Máscara N95;30;131,70
+NF-00014;25-05-2026;Laboratório Ipê;BR-2004;Avental Descartável;40;538,00
+NF-00016;12-06-2026;Farmácia Horizonte;BR-2005;Máscara N95;23;109,02
+NF-00143;07-04-2026;Hospital Serra Azul;BR-2002;Fita Microporosa 2,5cm;47;270,72
+NF-00106;15-04-2026;Farmácia Horizonte;BR-2003;Luva Cirúrgica Estéril;17;899,81
+NF-00173;16-05-2026;Clínica Aurora;BR-2006;Termômetro Digital;54;6.599,88
+NF-00178;01-06-2026;Hospital Serra Azul;BR-2005;Máscara N95;52;231,40
+NF-00062;02-05-2026;Distribuidora Atlântico;BR-2003;Luva Cirúrgica Estéril;32;1.830,72
+NF-00116;30-04-2026;Hospital Serra Azul;BR-2006;Termômetro Digital;26;3.305,38
+NF-00051;02-05-2026;Clínica Aurora;BR-2002;Fita Microporosa 2,5cm;20;127,80
+NF-00184;08-04-2026;Hospital Solar;BR-2006;Termômetro Digital;25;2.991,75
+NF-00100;06-04-2026;Clínica Aurora;BR-2006;Termômetro Digital;55;6.800,75
+NF-00052;28-04-2026;Clínica Aurora;BR-2006;Termômetro Digital;30;3.564,30
+NF-00046;26-06-2026;Laboratório Ipê;BR-2001;Curativo Hidrocolóide 10cm;54;909,90
+NF-00170;09-04-2026;Hospital Solar;BR-2003;Luva Cirúrgica Estéril;25;1.406,25
+NF-00160;30-06-2026;Laboratório Ipê;BR-2005;Máscara N95;19;81,70
+NF-00117;09-05-2026;Hospital Solar;BR-2006;Termômetro Digital;7;964,25
+NF-00034;01-05-2026;Laboratório Ipê;BR-2004;Avental Descartável;46;718,06
+NF-00047;30-06-2026;Hospital Serra Azul;BR-2001 ;Curativo Hidrocolóide 10cm;53;1.023,96
+NF-00146;11-06-2026;Farmácia Horizonte;BR-2001;Curativo Hidrocolóide 10cm;31;528,24
+NF-00019;08-05-2026;Laboratório Ipê;BR-2005;Máscara N95;44;186,12
+NF-00182;31-05-2026;Hospital Serra Azul;BR-2004;Avental Descartável;1;16,28
+NF-00091;19-04-2026;Distribuidora Atlântico;BR-2002;Fita Microporosa 2,5cm;7;43,33
+NF-00034;01-05-2026;Laboratório Ipê;BR-2004;Avental Descartável;46;718,06
+NF-00061;06-04-2026;Hospital Serra Azul;BR-2003;Luva Cirúrgica Estéril;60;3.237,00
+NF-00012;20-05-2026;Hospital Serra Azul;BR-2003;Luva Cirúrgica Estéril;28;1.618,40
+NF-00187;10-05-2026;Farmácia Horizonte;BR-2004;Avental Descartável;19;266,19
+NF-00145;19-05-2026;Laboratório Ipê; br-2002 ;Fita Microporosa 2,5cm;48;316,80
+NF-00029;25-04-2026;Laboratório Ipê;BR-2005;Máscara N95;52;258,96
+NF-00132;22-05-2026;Distribuidora Atlântico;BR-2001;Curativo Hidrocolóide 10cm;45;773,10
+NF-00157;09-04-2026;Distribuidora Atlântico;BR-2003;Luva Cirúrgica Estéril;48;2.509,44
+NF-00076;16-05-2026;Farmácia Horizonte;BR-2005;Máscara N95;5;
+NF-00094;29-04-2026;Hospital Solar;BR-2001;Curativo Hidrocolóide 10cm;45;895,05
+NF-00120;11-05-2026;;BR-2004;Avental Descartável;32;439,68
+NF-00086;14-04-2026;Hospital Serra Azul;BR-2006;Termômetro Digital;23;3.256,34
+NF-00083;31-05-2026;Clínica Aurora;BR-2003;Luva Cirúrgica Estéril;15;806,25
+NF-00093;05-04-2026;Laboratório Ipê;BR-2005;Máscara N95;3;12,54
+NF-00097;26-04-2026;Distribuidora Atlântico;BR-2005;Máscara N95;60;254,40
+NF-00138;15-04-2026;Farmácia Horizonte;BR-2002;Fita Microporosa 2,5cm;18;118,44
+NF-00074;26-06-2026;Hospital Solar;BR-2001;Curativo Hidrocolóide 10cm;22;406,34
+NF-00155;27-04-2026;Hospital Serra Azul;BR-2003;Luva Cirúrgica Estéril;34;1.716,32
+NF-00084;12-05-2026;Laboratório Ipê;BR-2005;Máscara N95;28;134,40
+NF-00010;12-04-2026;Hospital Serra Azul;BR-2002;Fita Microporosa 2,5cm;32;198,08
+NF-00040;01-04-2026;Clínica Aurora;BR-2005;Máscara N95;12;56,28
+NF-00166;09-04-2026;;BR-2003;Luva Cirúrgica Estéril;38;1.857,06
+NF-00044;09-05-2026;Farmácia Horizonte;BR-2006;Termômetro Digital;27;3.526,20
+NF-00043;12-06-2026;Laboratório Ipê;BR-2006;Termômetro Digital;53;6.768,10
+NF-00021;05-04-2026;Hospital Solar;BR-2004;Avental Descartável;16;260,00
+NF-00103;08-06-2026;Laboratório Ipê;BR-2003;Luva Cirúrgica Estéril;52;2.877,16
+NF-00015;26-04-2026;Hospital Solar;BR-2006;Termômetro Digital;33;4.558,62
+NF-00067;08-06-2026;Distribuidora Atlântico;BR-2001;Curativo Hidrocolóide 10cm;54;1.020,60
+NF-00099;19-05-2026;Farmácia Horizonte;BR-2004;Avental Descartável;46;699,66
+NF-00176;12-05-2026;Laboratório Ipê;BR-2001;Curativo Hidrocolóide 10cm;17;318,58
+NF-00134;06-05-2026;Laboratório Ipê;BR-2004;Avental Descartável;30;465,90
+NF-00136;14-04-2026;Clínica Aurora;BR-2003;Luva Cirúrgica Estéril;5;274,10
+NF-00111;23-06-2026;Distribuidora Atlântico;BR-2004;Avental Descartável;34;486,54
+NF-00130;15-04-2026;Hospital Solar;BR-2001;Curativo Hidrocolóide 10cm;13;248,43
+NF-00056;15-05-2026;Distribuidora Atlântico; BR-2006;Termômetro Digital;4;506,12
+NF-00082;22-06-2026;Farmácia Horizonte;BR-2001;Curativo Hidrocolóide 10cm;9;157,41
+NF-00174;05-04-2026;;BR-2004;Avental Descartável;37;505,42
+NF-00162;27-04-2026;Clínica Aurora;BR-2005;Máscara N95;46;192,28
+NF-00060;11-05-2026;Laboratório Ipê;BR-2003;Luva Cirúrgica Estéril;39;1.857,96
+NF-00023;30-04-2026;Farmácia Horizonte;BR-2002;Fita Microporosa 2,5cm;56;342,72
+NF-00127;07-04-2026;Hospital Serra Azul;BR-2002;Fita Microporosa 2,5cm;47;320,07
+NF-00054;07-05-2026;Distribuidora Atlântico;BR-2002;Fita Microporosa 2,5cm;23;150,19
+NF-00045;01-04-2026;Clínica Aurora;BR-2002;Fita Microporosa 2,5cm;2;11,96
+NF-00197;17-04-2026;Hospital Serra Azul;BR-2006;Termômetro Digital;32;3.895,04
+NF-00115;27-06-2026;Hospital Solar;BR-2005;Máscara N95;3;13,86
+NF-00109;03-06-2026;Distribuidora Atlântico;BR-2001;Curativo Hidrocolóide 10cm;49;972,65
+NF-00158;16-05-2026;Distribuidora Atlântico;BR-2005;Máscara N95;34;149,94
+NF-00200;28-06-2026;Hospital Solar;BR-2005;Máscara N95;32;142,08
+NF-00071;25-05-2026;Farmácia Horizonte;BR-2005;Máscara N95;38;
+NF-00130;15-04-2026;Hospital Solar;BR-2001;Curativo Hidrocolóide 10cm;13;248,43
+NF-00128;11-05-2026;Farmácia Horizonte;BR-2002;Fita Microporosa 2,5cm;1;6,02
+NF-00011;14-06-2026;Hospital Serra Azul;BR-2002;Fita Microporosa 2,5cm;58;363,66
+NF-00022;09-05-2026;Farmácia Horizonte;BR-2004;Avental Descartável;59;961,11
+NF-00177;18-05-2026;Hospital Serra Azul;BR-2003;Luva Cirúrgica Estéril;16;924,32
+NF-00088;22-06-2026;Clínica Aurora;BR-2001;Curativo Hidrocolóide 10cm;17;291,38
+NF-00041;20-06-2026;Hospital Serra Azul; br-2003 ;Luva Cirúrgica Estéril;24;1.293,12
+NF-00024;29-04-2026;Distribuidora Atlântico;BR-2004;Avental Descartável;43;645,43
+NF-00198;02-05-2026;Hospital Serra Azul;BR-2002;Fita Microporosa 2,5cm;56;337,68
+NF-00073;06-04-2026;Laboratório Ipê;BR-2002;Fita Microporosa 2,5cm;51;307,53
+NF-00195;03-06-2026;Hospital Serra Azul;BR-2003;Luva Cirúrgica Estéril;35;1.926,40
+NF-00089;09-04-2026;Hospital Solar;BR-2001;Curativo Hidrocolóide 10cm;24;447,12
+NF-00185;01-05-2026;Clínica Aurora;BR-2001;Curativo Hidrocolóide 10cm;25;469,75
+NF-00101;24-06-2026;Laboratório Ipê;BR-2004;Avental Descartável;27;375,84
+NF-00020;18-04-2026;Laboratório Ipê;BR-2005;Máscara N95;6;25,50
+NF-00141;27-06-2026;Hospital Solar;BR-2005;Máscara N95;56;262,64
+NF-00006;05-04-2026;Laboratório Ipê;BR-2004;Avental Descartável;31;493,21
+NF-00078;24-05-2026;Hospital Solar;BR-2003;Luva Cirúrgica Estéril;52;2.883,40
+NF-00035;01-06-2026;Laboratório Ipê;BR-2001;Curativo Hidrocolóide 10cm;7;128,24
+NF-00069;19-04-2026;Farmácia Horizonte;BR-2003;Luva Cirúrgica Estéril;38;2.022,36
+NF-00063;10-05-2026;Clínica Aurora;BR-2005;Máscara N95;22;93,28
